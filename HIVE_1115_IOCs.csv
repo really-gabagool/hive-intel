@@ -1,0 +1,138 @@
+type,value,category,sensors,first_seen_utc,last_seen_utc,count,notes
+url,tftp://115.41.97.139:69/yCz31g9,malware_download,1,2026-11-15T09:53:40.576766Z,2026-11-15T09:53:40.576766Z,1,failed; file=; from 1 IP(s): 115.41.97.139
+url,http://115.41.97.139:50891/lvn3/eU,malware_download,1,2026-11-15T09:54:01.202167Z,2026-11-15T09:54:01.202167Z,1,failed; file=; from 1 IP(s): 115.41.97.139
+url,http://185.93.89.72/wget,malware_download,1,2026-11-09T14:51:47.168997Z,2026-11-13T19:19:42.869994Z,12,failed; file=; from 5 IP(s): 198.179.70.19 200.59.83.86 200.59.96.182 216.244.214.92 95.104.122.17
+url,tftp://185.93.89.72:69/tftp,malware_download,1,2026-11-09T14:51:52.367325Z,2026-11-13T19:19:47.293637Z,12,failed; file=; from 5 IP(s): 198.179.70.19 200.59.83.86 200.59.96.182 216.244.214.92 95.104.122.17
+sha256,35b1e72dc1201d2ffaa82f24043f53ef0f52c4f86be9abe6d23fa52f91383468,malware,1,2026-11-09T14:52:02.716994Z,2026-11-13T19:19:57.275840Z,6,file_download; file=; from 5 IP(s): 198.179.70.19 200.59.83.86 200.59.96.182 216.244.214.92 95.104.122.17
+url,ftp://185.93.89.72/ftpget,malware_download,1,2026-11-09T14:52:27.798611Z,2026-11-13T19:20:22.347430Z,6,failed; file=; from 5 IP(s): 198.179.70.19 200.59.83.86 200.59.96.182 216.244.214.92 95.104.122.17
+url,http://43.157.55.140/d86,malware_download,1,2026-11-12T13:58:06.779415Z,2026-11-13T06:18:11.089918Z,2,failed; file=; from 1 IP(s): 172.86.85.110
+url,http://176.65.139.157/telnet2.sh,malware_download,1,2026-11-09T17:33:26.393226Z,2026-11-13T08:36:07.175560Z,10,failed; file=; from 10 IP(s): 114.39.158.253 121.233.231.230 125.44.129.107 185.147.238.114 188.187.188.120
+sha256,6d1fe6ab3cd04ca5d1ab790339ee2b6577553bc042af3b7587ece0c195267c9b,malware,1,2026-11-13T11:08:18.139748Z,2026-11-13T11:08:18.725940Z,2,file_upload; file=nYpE8Kcr; from 1 IP(s): 187.148.70.192; url=/home/pi/nYpE8Kcr
+sha256,39be6853a8204ce6455a373a6ffb4cb4672d4a62d90be69f7d6eeb66cda10b96,malware,1,2026-11-09T12:53:47.735704Z,2026-11-14T18:19:54.469304Z,14,file_download; file=; from 1 IP(s): 160.119.66.206; url=http://160.119.66.206/bins/kla.sh
+url,http://160.119.66.206/bins/kla.sh,malware_download,1,2026-11-09T12:53:47.735704Z,2026-11-14T18:19:54.469304Z,14,file_download; file=; from 1 IP(s): 160.119.66.206
+sha256,3674a103804cac96027fe1cf62aaab4948c1d547d1c885542177a263103b4260,malware,1,2026-11-09T12:53:52.321593Z,2026-11-14T18:19:55.982240Z,19,file_download; file=; from 1 IP(s): 160.119.66.206; url=http://160.119.66.206/bins/net.x86_64
+url,http://160.119.66.206/bins/net.x86_64,malware_download,1,2026-11-09T12:53:52.321593Z,2026-11-14T18:19:55.982240Z,19,file_download; file=; from 1 IP(s): 160.119.66.206
+sha256,a151d3f4f2422531f30a843ffb35479596c86722bb103bdf8591105687f9b125,malware,1,2026-11-09T03:06:20.733391Z,2026-11-10T20:01:25.153683Z,122,file_upload; file=.16; from 9 IP(s): 195.178.110.217 195.178.110.227 2.57.122.168 2.57.122.209 80.94.92.179
+sha256,6d1fe6ab3cd04ca5d1ab790339ee2b6577553bc042af3b7587ece0c195267c9b,malware,1,2026-11-09T14:07:18.040931Z,2026-11-09T14:07:18.794583Z,2,file_upload; file=IlWSOo6r; from 1 IP(s): 184.146.168.168
+sha256,2111d820318495a98a9f07e43ab661ef1781e2cfbdf3966e18c7b0dd25200d46,malware,1,2026-11-09T23:00:51.159552Z,2026-11-09T23:00:51.159552Z,1,file_download; file=; from 1 IP(s): 8.138.215.96
+sha256,7a9da7d10aa80b0f9e2e3f9e518030c86026a636e0b6de35905e15dd4c8e3e2d,malware,1,2026-11-10T00:20:25.180057Z,2026-11-14T00:50:43.819813Z,5,file_upload; file=sshd; from 5 IP(s): 165.154.11.64 171.244.63.98 213.215.209.101 49.72.213.251 87.107.171.192
+sha256,e948036f1c3b3024a6864fa1c49332c80e1fd28484cf487233a50154ffe104f8,malware,1,2026-11-12T04:19:16.635691Z,2026-11-12T04:19:16.635691Z,1,file_upload; file=sshd; from 1 IP(s): 120.193.9.169
+sha256,cf0b50b8b7a861c3490889683d857e50b54d0e4975678d58778bba800b589db8,malware,1,2026-11-11T14:45:47.083175Z,2026-11-11T14:45:47.083175Z,1,file_download; file=; from 1 IP(s): 187.87.233.140; url=http://45.90.163.37/wget.sh
+url,http://45.90.163.37/wget.sh,malware_download,1,2026-11-11T14:45:47.083175Z,2026-11-11T14:45:47.083175Z,1,file_download; file=; from 1 IP(s): 187.87.233.140
+url,tftp://45.90.163.37:69/tftp.sh,malware_download,1,2026-11-11T14:45:47.090542Z,2026-11-11T14:45:47.090542Z,1,failed; file=; from 1 IP(s): 187.87.233.140
+url,ftp://45.90.163.37/ftpget.sh,malware_download,1,2026-11-11T14:46:17.125462Z,2026-11-11T14:46:17.125462Z,1,failed; file=; from 1 IP(s): 187.87.233.140
+sha256,a8db671b58d03320f807ff9ad14b11ba9ffa182576179df594b3a49a95719783,malware,1,2026-11-11T14:46:17.294266Z,2026-11-11T14:46:17.294266Z,1,file_download; file=; from 1 IP(s): 187.87.233.140; url=http://45.90.163.37/curl.sh
+url,http://45.90.163.37/curl.sh,malware_download,1,2026-11-11T14:46:17.294266Z,2026-11-11T14:46:17.294266Z,1,file_download; file=; from 1 IP(s): 187.87.233.140
+sha256,c7253e647e02a6b2b1774c230d9577dcc5653d7b3acf98cfff712806fe35c519,malware,1,2026-11-11T14:46:18.309581Z,2026-11-11T14:46:18.309581Z,1,file_download; file=; from 1 IP(s): 187.87.233.140; url=http://45.90.163.37/jklarm
+url,http://45.90.163.37/jklarm,malware_download,1,2026-11-11T14:46:18.309581Z,2026-11-11T14:46:18.309581Z,1,file_download; file=; from 1 IP(s): 187.87.233.140
+sha256,43359f109e4a8d949202151a7e3076977041709e8e7fa01aee7bf03f50f9a0d0,malware,1,2026-11-11T14:46:18.722919Z,2026-11-11T14:46:18.722919Z,1,file_download; file=; from 1 IP(s): 187.87.233.140; url=http://45.90.163.37/jklarm5
+url,http://45.90.163.37/jklarm5,malware_download,1,2026-11-11T14:46:18.722919Z,2026-11-11T14:46:18.722919Z,1,file_download; file=; from 1 IP(s): 187.87.233.140
+sha256,3b71fa7bd09b62b79aa4becbcfe4de7dac3cf3b29bdc04351a0b2400024d5bd7,malware,1,2026-11-11T14:46:19.131631Z,2026-11-11T14:46:19.131631Z,1,file_download; file=; from 1 IP(s): 187.87.233.140; url=http://45.90.163.37/jklarm6
+url,http://45.90.163.37/jklarm6,malware_download,1,2026-11-11T14:46:19.131631Z,2026-11-11T14:46:19.131631Z,1,file_download; file=; from 1 IP(s): 187.87.233.140
+sha256,30a5dd405492bc7223f108056d458f5c815297f50caf5cf2f94e396f9aa115ed,malware,1,2026-11-11T14:46:19.539696Z,2026-11-11T14:46:19.539696Z,1,file_download; file=; from 1 IP(s): 187.87.233.140; url=http://45.90.163.37/jklarm7
+url,http://45.90.163.37/jklarm7,malware_download,1,2026-11-11T14:46:19.539696Z,2026-11-11T14:46:19.539696Z,1,file_download; file=; from 1 IP(s): 187.87.233.140
+sha256,6d1fe6ab3cd04ca5d1ab790339ee2b6577553bc042af3b7587ece0c195267c9b,malware,1,2026-11-11T21:25:08.700570Z,2026-11-11T21:25:09.433852Z,2,file_upload; file=xbAC3jdo; from 1 IP(s): 64.92.10.98; url=/home/pi/xbAC3jdo
+url,http://phubotnet.duckdns.org/main_mips,malware_download,1,2026-11-10T03:24:51.521700Z,2026-11-10T03:24:51.521700Z,1,failed; file=; from 1 IP(s): 153.235.147.116
+sha256,55f25016613e20879c92cca64f879c7275c3473a383db567884e355ce0646059,malware,2,2026-11-10T08:45:16.694804Z,2026-11-10T08:45:16.694804Z,1,file_upload; file=.16; from 1 IP(s): 92.118.39.49
+ipv4,160.119.66.206,payload_host,1,,,,"self-hosted bot payloads (kla.sh, net.<arch>)"
+ipv4,176.65.139.157,payload_host,1,,,,telnet2.sh dropper host
+ipv4,185.93.89.72,payload_host,1,,,,wget/tftp/ftpget dropper host
+ipv4,45.90.163.37,payload_host,1,,,,jkl* multi-arch botnet payload host
+ipv4,43.157.55.140,payload_host,1,,,,d86 payload host
+ipv4,217.60.102.5,payload_host,1,,,,"RedTail-style ""sh telnet"" dropper over HTTPS"
+ipv4,115.41.97.139,payload_host,1,,,,payload host (self-hosted)
+domain,phubotnet.duckdns.org,payload_host,1,,,,main_<arch> IoT bot payloads
+domain,badmonner.s.gy,payload_host,3,,,,Outlaw/Dota3-style XMRig dropper (dota-download) via code-exec/webshell PUT on Conpot HTTP
+ipv4,217.154.222.171,exploit_source,3,,,31,Spring4Shell + code-exec API + JSP/ASPX webshell PUT -> badmonner.s.gy miner
+ipv4,91.92.40.12,exploit_source/c2,3,,,6,React2Shell (CVE-2025-55182) Node reverse shell to 91.92.40.12:12323
+ipv4,185.177.72.13,exploit_source,3,,,,React2Shell (Next-Action) probing
+ipv4,45.153.102.111,exploit_source,3,,,,React2Shell (Next-Action) probing
+ipv4,167.148.201.41,exploit_source,3,,,,React2Shell (Next-Action) probing
+ipv4,36.255.97.39,exploit_source,1,2026-11-11T01:38:34.096164Z,2026-11-15T17:18:46.371225Z,2,CVE-2026-24061 telnetd USER=-f root
+ipv4,191.44.112.76,exploit_source,1,2026-11-12T02:09:17.935276Z,2026-11-13T17:26:04.029388Z,3,CVE-2026-24061 telnetd USER=-f root
+ipv4,92.118.39.56,honeypot_probe/.16 uploader,1,2026-11-13T13:22:41.467264Z,2026-11-15T10:45:58.244495Z,36,"shell-semantics honeypot-detection framework (check_<md5>), then SCP /root/.16"
+ipv4,195.178.110.227,honeypot_probe/.16 uploader,1;2;4,2026-11-09T15:25:41.447500Z,2026-11-15T02:28:46.764739Z,223,"shell-semantics honeypot-detection framework (check_<md5>), then SCP /root/.16"
+ipv4,92.118.39.64,honeypot_probe/.16 uploader,1;2,2026-11-11T02:56:50.224969Z,2026-11-15T04:46:55.637996Z,50,"shell-semantics honeypot-detection framework (check_<md5>), then SCP /root/.16"
+ipv4,80.94.92.234,honeypot_probe/.16 uploader,1;2;4,2026-11-09T08:28:43.666986Z,2026-11-15T07:27:51.838967Z,159,"shell-semantics honeypot-detection framework (check_<md5>), then SCP /root/.16"
+ipv4,80.94.92.179,honeypot_probe/.16 uploader,1;2;4,2026-11-10T19:12:49.148936Z,2026-11-15T15:19:11.176498Z,288,"shell-semantics honeypot-detection framework (check_<md5>), then SCP /root/.16"
+ipv4,92.118.39.77,honeypot_probe/.16 uploader,1,2026-11-10T05:14:15.900617Z,2026-11-15T16:01:55.977161Z,47,"shell-semantics honeypot-detection framework (check_<md5>), then SCP /root/.16"
+ipv4,195.178.110.228,honeypot_probe/.16 uploader,1;2,2026-11-11T23:06:50.529638Z,2026-11-14T17:19:39.385178Z,213,"shell-semantics honeypot-detection framework (check_<md5>), then SCP /root/.16"
+ipv4,92.118.39.49,honeypot_probe/.16 uploader,1;2,2026-11-10T08:16:03.848857Z,2026-11-15T05:46:06.656625Z,187,"shell-semantics honeypot-detection framework (check_<md5>), then SCP /root/.16"
+ipv4,193.32.162.84,honeypot_probe/.16 uploader,1;2;4,2026-11-12T07:13:41.743809Z,2026-11-15T12:48:37.214638Z,53,"shell-semantics honeypot-detection framework (check_<md5>), then SCP /root/.16"
+ipv4,80.94.92.55,honeypot_probe/.16 uploader,1;2;4,2026-11-09T03:57:31.629622Z,2026-11-15T17:19:49.283103Z,199,"shell-semantics honeypot-detection framework (check_<md5>), then SCP /root/.16"
+ipv4,92.118.39.63,honeypot_probe/.16 uploader,1;2,2026-11-10T21:15:29.918472Z,2026-11-14T22:15:17.705087Z,95,"shell-semantics honeypot-detection framework (check_<md5>), then SCP /root/.16"
+ipv4,2.57.122.168,honeypot_probe/.16 uploader,1,2026-11-09T02:53:15.723351Z,2026-11-14T18:57:56.225645Z,126,"shell-semantics honeypot-detection framework (check_<md5>), then SCP /root/.16"
+ipv4,92.118.39.71,honeypot_probe/.16 uploader,1;2,2026-11-09T13:05:32.632587Z,2026-11-15T11:37:36.938752Z,208,"shell-semantics honeypot-detection framework (check_<md5>), then SCP /root/.16"
+ipv4,195.178.110.217,honeypot_probe/.16 uploader,1;2,2026-11-09T23:08:33.554720Z,2026-11-14T18:59:06.301039Z,274,"shell-semantics honeypot-detection framework (check_<md5>), then SCP /root/.16"
+ipv4,92.118.39.75,honeypot_probe/.16 uploader,1;2;4,2026-11-12T10:33:06.464313Z,2026-11-15T03:49:51.793564Z,89,"shell-semantics honeypot-detection framework (check_<md5>), then SCP /root/.16"
+ipv4,195.178.110.232,honeypot_probe/.16 uploader,1;2;4,2026-11-10T23:06:49.886615Z,2026-11-15T15:19:52.089877Z,529,"shell-semantics honeypot-detection framework (check_<md5>), then SCP /root/.16"
+ipv4,2.57.122.150,honeypot_probe/.16 uploader,1;2,2026-11-10T21:32:48.915707Z,2026-11-14T00:59:13.479915Z,255,"shell-semantics honeypot-detection framework (check_<md5>), then SCP /root/.16"
+ipv4,92.118.39.78,honeypot_probe/.16 uploader,1;2,2026-11-12T15:36:48.851567Z,2026-11-13T12:47:28.586896Z,58,"shell-semantics honeypot-detection framework (check_<md5>), then SCP /root/.16"
+ipv4,2.57.122.209,honeypot_probe/.16 uploader,1;2,2026-11-10T02:58:08.302263Z,2026-11-14T20:00:08.640846Z,156,"shell-semantics honeypot-detection framework (check_<md5>), then SCP /root/.16"
+ipv4,92.118.39.14,honeypot_probe/.16 uploader,2,2026-11-10T12:54:53.021923Z,2026-11-14T03:50:07.964900Z,80,"shell-semantics honeypot-detection framework (check_<md5>), then SCP /root/.16"
+ipv4,77.90.185.29,proxy_abuse,1,2026-11-11T23:57:45.026537Z,2026-11-15T17:26:23.640672Z,74,74 direct-tcpip requests (SMTP:25 / HTTPS / IP-check)
+ipv4,80.94.95.118,proxy_abuse,1,2026-11-11T23:57:34.545725Z,2026-11-15T17:27:37.528376Z,60,60 direct-tcpip requests (SMTP:25 / HTTPS / IP-check)
+ipv4,193.32.162.15,proxy_abuse,1;2;4,2026-11-09T07:00:19.589980Z,2026-11-15T14:46:39.056386Z,121,29 direct-tcpip requests (SMTP:25 / HTTPS / IP-check)
+ipv4,138.226.239.233,proxy_abuse,1;2,2026-11-11T21:35:21.205316Z,2026-11-15T17:27:50.180409Z,106,47 direct-tcpip requests (SMTP:25 / HTTPS / IP-check)
+ipv4,193.46.255.86,proxy_abuse,1;2;4,2026-11-09T10:40:42.539210Z,2026-11-15T17:24:10.690466Z,182,89 direct-tcpip requests (SMTP:25 / HTTPS / IP-check)
+ipv4,2.57.121.25,proxy_abuse,1;2;4,2026-11-09T04:28:26.235028Z,2026-11-15T17:03:20.416530Z,264,141 direct-tcpip requests (SMTP:25 / HTTPS / IP-check)
+ipv4,193.187.110.160,proxy_abuse,1,2026-11-14T14:31:17.245420Z,2026-11-15T12:21:42.239708Z,6,5 direct-tcpip requests (SMTP:25 / HTTPS / IP-check)
+ipv4,2.57.121.112,proxy_abuse,1;2;4,2026-11-09T05:10:01.150060Z,2026-11-15T16:35:39.696476Z,187,100 direct-tcpip requests (SMTP:25 / HTTPS / IP-check)
+ipv4,196.188.93.169,proxy_abuse,1;2,2026-11-12T22:03:57.595042Z,2026-11-15T10:20:37.929762Z,6,5 direct-tcpip requests (SMTP:25 / HTTPS / IP-check)
+ipv4,138.226.239.234,proxy_abuse,1;2,2026-11-11T22:54:47.095892Z,2026-11-15T17:27:06.718741Z,104,47 direct-tcpip requests (SMTP:25 / HTTPS / IP-check)
+ipv4,125.130.102.172,proxy_abuse,1;2,2026-11-13T05:19:43.212204Z,2026-11-15T15:50:59.530263Z,10,5 direct-tcpip requests (SMTP:25 / HTTPS / IP-check)
+ipv4,80.94.95.115,proxy_abuse,1;2,2026-11-11T21:29:06.065938Z,2026-11-15T13:39:34.654784Z,57,10 direct-tcpip requests (SMTP:25 / HTTPS / IP-check)
+ipv4,8.218.25.238,ssh_bruteforce,1,2026-11-11T03:34:20.266097Z,2026-11-11T18:29:32.484068Z,28819,high-volume SSH/Telnet brute force
+ipv4,194.124.37.234,ssh_bruteforce,1,2026-11-14T15:01:43.893995Z,2026-11-15T00:44:58.552802Z,26674,high-volume SSH/Telnet brute force
+ipv4,36.81.48.118,ssh_bruteforce,2,2026-11-11T15:02:11.231712Z,2026-11-12T06:53:01.240829Z,12353,high-volume SSH/Telnet brute force
+ipv4,207.120.8.120,ssh_bruteforce,2,2026-11-12T07:04:07.146172Z,2026-11-12T10:01:08.349044Z,3877,high-volume SSH/Telnet brute force
+ipv4,146.71.99.194,ssh_bruteforce,2,2026-11-10T12:02:12.308104Z,2026-11-10T14:26:50.506439Z,3667,high-volume SSH/Telnet brute force
+ipv4,109.160.32.167,ssh_bruteforce,1;2,2026-11-10T11:20:18.304253Z,2026-11-13T03:43:57.031937Z,2485,high-volume SSH/Telnet brute force
+ipv4,77.239.124.147,ssh_bruteforce,1;4,2026-11-12T02:33:47.200271Z,2026-11-15T06:19:46.858116Z,2240,high-volume SSH/Telnet brute force
+ipv4,213.177.179.79,ssh_bruteforce,2,2026-11-13T13:52:01.870828Z,2026-11-13T15:07:56.471342Z,1351,high-volume SSH/Telnet brute force
+ipv4,109.160.32.174,ssh_bruteforce,1,2026-11-15T11:13:25.968162Z,2026-11-15T13:01:41.967618Z,1287,high-volume SSH/Telnet brute force
+ipv4,77.239.124.157,ssh_bruteforce,1,2026-11-13T02:42:15.827193Z,2026-11-13T04:41:20.286843Z,1287,high-volume SSH/Telnet brute force
+ipv4,77.239.124.143,ssh_bruteforce,1,2026-11-13T21:02:50.983044Z,2026-11-13T23:34:00.772002Z,1287,high-volume SSH/Telnet brute force
+ipv4,77.239.124.145,ssh_bruteforce,1,2026-11-12T13:56:47.271211Z,2026-11-12T15:58:48.611789Z,1287,high-volume SSH/Telnet brute force
+ipv4,109.160.32.171,ssh_bruteforce,2,2026-11-15T01:53:19.236874Z,2026-11-15T04:26:06.373346Z,1287,high-volume SSH/Telnet brute force
+ipv4,77.239.124.149,ssh_bruteforce,2,2026-11-13T07:50:29.437512Z,2026-11-13T10:24:40.841762Z,1287,high-volume SSH/Telnet brute force
+ipv4,77.239.124.156,ssh_bruteforce,2,2026-11-14T06:40:05.160481Z,2026-11-14T09:12:26.714533Z,1287,high-volume SSH/Telnet brute force
+ipv4,109.160.32.137,ssh_bruteforce,2,2026-11-14T21:01:38.048048Z,2026-11-14T22:50:59.908021Z,1287,high-volume SSH/Telnet brute force
+ipv4,109.160.32.170,ssh_bruteforce,1,2026-11-11T02:07:44.101916Z,2026-11-11T03:49:04.207914Z,1198,high-volume SSH/Telnet brute force
+ipv4,213.250.151.217,ssh_bruteforce,1;2,2026-11-10T23:55:10.420040Z,2026-11-15T06:33:27.482475Z,1146,high-volume SSH/Telnet brute force
+ipv4,83.168.110.67,ssh_bruteforce,1;2,2026-11-09T16:22:52.782656Z,2026-11-14T03:48:25.819854Z,1146,high-volume SSH/Telnet brute force
+ipv4,117.250.233.20,ssh_bruteforce,2,2026-11-14T15:02:23.911390Z,2026-11-14T20:15:53.051585Z,1005,high-volume SSH/Telnet brute force
+ipv4,109.160.32.36,ssh_bruteforce,1,2026-11-12T08:37:30.878059Z,2026-11-12T09:50:19.556668Z,953,high-volume SSH/Telnet brute force
+ipv4,109.160.32.34,ssh_bruteforce,1,2026-11-11T08:11:44.478783Z,2026-11-11T09:25:48.637360Z,953,high-volume SSH/Telnet brute force
+ipv4,109.160.32.41,ssh_bruteforce,2,2026-11-11T22:17:55.138132Z,2026-11-12T00:39:12.951205Z,953,high-volume SSH/Telnet brute force
+ipv4,109.160.32.155,ssh_bruteforce,2,2026-11-12T07:10:55.188001Z,2026-11-12T08:27:53.356469Z,953,high-volume SSH/Telnet brute force
+ipv4,109.160.32.107,ssh_bruteforce,2,2026-11-14T19:24:06.485885Z,2026-11-14T20:35:21.923408Z,909,high-volume SSH/Telnet brute force
+ipv4,195.178.110.26,ssh_bruteforce,1;2;4,2026-11-10T09:44:58.044567Z,2026-11-15T08:51:54.628559Z,842,high-volume SSH/Telnet brute force
+ipv4,109.160.32.113,ssh_bruteforce,2,2026-11-10T21:14:39.155270Z,2026-11-10T23:29:35.314559Z,795,high-volume SSH/Telnet brute force
+ipv4,77.239.124.73,ssh_bruteforce,1;2;4,2026-11-12T23:41:42.603533Z,2026-11-15T11:48:57.102465Z,768,high-volume SSH/Telnet brute force
+ipv4,179.43.153.2,ssh_bruteforce,1;2,2026-11-13T15:34:11.940422Z,2026-11-14T17:27:00.836930Z,702,high-volume SSH/Telnet brute force
+ipv4,189.176.206.83,ssh_bruteforce,2,2026-11-11T00:54:17.007342Z,2026-11-11T01:16:19.269656Z,514,high-volume SSH/Telnet brute force
+ipv4,77.239.124.37,ssh_bruteforce,1;2,2026-11-12T14:04:41.527035Z,2026-11-13T19:41:10.385438Z,504,high-volume SSH/Telnet brute force
+ipv4,77.239.124.80,ssh_bruteforce,1;2,2026-11-13T10:41:15.562861Z,2026-11-13T21:15:47.219813Z,504,high-volume SSH/Telnet brute force
+ipv4,77.239.124.35,ssh_bruteforce,1;2,2026-11-13T19:41:20.796573Z,2026-11-13T22:47:25.440015Z,504,high-volume SSH/Telnet brute force
+ipv4,77.239.124.68,ssh_bruteforce,1;2,2026-11-12T18:46:01.424832Z,2026-11-14T03:51:55.983327Z,504,high-volume SSH/Telnet brute force
+ipv4,77.239.124.72,ssh_bruteforce,1;2,2026-11-13T03:59:03.731998Z,2026-11-14T04:16:16.561347Z,504,high-volume SSH/Telnet brute force
+ipv4,77.239.124.69,ssh_bruteforce,1;2,2026-11-10T12:43:36.017907Z,2026-11-12T06:44:28.818590Z,504,high-volume SSH/Telnet brute force
+ipv4,77.239.124.44,ssh_bruteforce,1;2,2026-11-10T16:20:08.744229Z,2026-11-12T12:02:16.446702Z,504,high-volume SSH/Telnet brute force
+ipv4,77.239.124.79,ssh_bruteforce,1;2,2026-11-12T16:15:05.523286Z,2026-11-14T15:26:47.162448Z,504,high-volume SSH/Telnet brute force
+ipv4,77.239.124.45,ssh_bruteforce,1;2,2026-11-10T21:40:35.141603Z,2026-11-11T11:02:54.446810Z,504,high-volume SSH/Telnet brute force
+ipv4,77.239.124.49,ssh_bruteforce,1;2,2026-11-11T23:11:26.879023Z,2026-11-14T18:09:23.821996Z,504,high-volume SSH/Telnet brute force
+ipv4,77.239.124.43,ssh_bruteforce,1;2,2026-11-10T06:17:39.149337Z,2026-11-15T09:04:06.033749Z,504,high-volume SSH/Telnet brute force
+ipv4,77.239.124.34,ssh_bruteforce,1;2,2026-11-10T07:27:35.004479Z,2026-11-10T08:26:59.602319Z,504,high-volume SSH/Telnet brute force
+ipv4,77.239.124.62,ssh_bruteforce,1;2,2026-11-10T10:38:51.503274Z,2026-11-14T01:53:42.407483Z,504,high-volume SSH/Telnet brute force
+ipv4,77.239.124.64,ssh_bruteforce,2,2026-11-15T01:11:13.506194Z,2026-11-15T02:00:38.968420Z,502,high-volume SSH/Telnet brute force
+ipv4,77.239.124.78,ssh_bruteforce,2,2026-11-10T18:58:57.796829Z,2026-11-10T19:55:10.009058Z,502,high-volume SSH/Telnet brute force
+ipv4,77.239.124.67,ssh_bruteforce,2,2026-11-12T01:19:33.673213Z,2026-11-12T02:30:27.416367Z,502,high-volume SSH/Telnet brute force
+ipv4,77.239.124.70,ssh_bruteforce,2,2026-11-12T04:29:45.055973Z,2026-11-12T05:32:23.008064Z,502,high-volume SSH/Telnet brute force
+ipv4,179.43.153.18,ssh_bruteforce,1;2,2026-11-12T19:45:59.386381Z,2026-11-15T12:35:01.501024Z,469,high-volume SSH/Telnet brute force
+ipv4,116.68.77.186,ssh_bruteforce,2,2026-11-14T16:30:09.179165Z,2026-11-14T20:20:30.112895Z,421,high-volume SSH/Telnet brute force
+ipv4,83.168.107.77,ssh_bruteforce,2,2026-11-10T04:22:09.367462Z,2026-11-10T05:35:48.534694Z,382,high-volume SSH/Telnet brute force
+ipv4,152.42.221.98,ssh_bruteforce,2,2026-11-12T12:41:13.452731Z,2026-11-12T13:16:11.686355Z,382,high-volume SSH/Telnet brute force
+ipv4,8.219.10.43,ssh_bruteforce,2,2026-11-13T19:45:14.154853Z,2026-11-13T21:17:55.755911Z,368,high-volume SSH/Telnet brute force
+ipv4,198.46.134.48,ssh_bruteforce,1,2026-11-09T02:16:09.354299Z,2026-11-15T17:23:26.925248Z,367,high-volume SSH/Telnet brute force
+ipv4,37.120.162.199,ssh_bruteforce,1;2;4,2026-11-09T02:17:17.127675Z,2026-11-15T17:22:48.463989Z,313,high-volume SSH/Telnet brute force
