@@ -1,0 +1,54 @@
+type,value,family_or_cluster,role,first_seen_utc,last_seen_utc,sensor,notes
+url,http://45.90.163.37/jklarm,jkl/PBOC Mirai variant,payload,2026-11-11,2026-11-19,sensor_1,Nov 19 rebuild adds ENS (.eth) C2 resolution via Ethereum JSON-RPC
+url,http://45.90.163.37/jklarm5,jkl/PBOC Mirai variant,payload,2026-11-11,2026-11-19,sensor_1,
+url,http://45.90.163.37/jklarm6,jkl/PBOC Mirai variant,payload,2026-11-11,2026-11-19,sensor_1,
+url,http://45.90.163.37/jklarm7,jkl/PBOC Mirai variant,payload,2026-11-11,2026-11-19,sensor_1,
+url,http://45.90.163.37/wget.sh,jkl/PBOC Mirai variant,loader,2026-11-11,2026-11-19,sensor_1,
+url,http://45.90.163.37/curl.sh,jkl/PBOC Mirai variant,loader,2026-11-11,2026-11-19,sensor_1,
+sha256,c7253e647e02a6b2b1774c230d9577dcc5653d7b3acf98cfff712806fe35c519,jkl/PBOC Mirai variant,jklarm (Nov 11 build),2026-11-11,2026-11-11,sensor_1,no ENS
+sha256,43359f109e4a8d949202151a7e3076977041709e8e7fa01aee7bf03f50f9a0d0,jkl/PBOC Mirai variant,jklarm5 (Nov 11 build),2026-11-11,2026-11-11,sensor_1,no ENS
+sha256,3b71fa7bd09b62b79aa4becbcfe4de7dac3cf3b29bdc04351a0b2400024d5bd7,jkl/PBOC Mirai variant,jklarm6 (Nov 11 build),2026-11-11,2026-11-11,sensor_1,no ENS
+sha256,30a5dd405492bc7223f108056d458f5c815297f50caf5cf2f94e396f9aa115ed,jkl/PBOC Mirai variant,jklarm7 (Nov 11 build),2026-11-11,2026-11-11,sensor_1,no ENS
+sha256,104a1804751c1545e1ee563e05bed275359d2c2da9545089ab2fe9fd2d977390,jkl/PBOC Mirai variant,jklarm (Nov 19 build),2026-11-19,2026-11-19,sensor_1,ENS C2 + speedtest + telnet cred list
+sha256,7d34d93be25012c5d66aa1b0613e08e0bbea9dd7eeba3b59990272f95610926c,jkl/PBOC Mirai variant,jklarm5 (Nov 19 build),2026-11-19,2026-11-19,sensor_1,ENS C2
+sha256,fe0a48bd4eae2d93f90c1173fccc0e82d4a0ac803f3dc3ea3a0f47b3c714cd66,jkl/PBOC Mirai variant,jklarm6 (Nov 19 build),2026-11-19,2026-11-19,sensor_1,ENS C2
+sha256,53f936f52e704f01ca5e611809c0a41d9354922114d2c256d95c6270152b7e59,jkl/PBOC Mirai variant,jklarm7 (Nov 19 build),2026-11-19,2026-11-19,sensor_1,ENS C2
+sha256,cf0b50b8b7a861c3490889683d857e50b54d0e4975678d58778bba800b589db8,jkl/PBOC Mirai variant,wget.sh,2026-11-11,2026-11-19,sensor_1,
+sha256,a8db671b58d03320f807ff9ad14b11ba9ffa182576179df594b3a49a95719783,jkl/PBOC Mirai variant,curl.sh,2026-11-11,2026-11-19,sensor_1,
+ip,187.87.233.140,jkl/PBOC Mirai variant,delivering bot,2026-11-11,2026-11-11,sensor_1,
+ip,180.243.6.39,jkl/PBOC Mirai variant,delivering bot,2026-11-19,2026-11-19,sensor_1,delivered ENS builds
+string,/bin/busybox hostname PBOC,jkl/PBOC Mirai variant,spreader marker,2026-11-09,2026-11-19,sensor_1,94 infected source IPs; writes .k process-killer via echo -ne hex
+url,http://160.119.66.206/bins/kla.sh,net_bot,loader,2026-11-09,2026-11-19,sensor_1,source IP is also the hosting server
+url,http://160.119.66.206/bins/net.x86_64,net_bot,payload,2026-11-09,2026-11-19,sensor_1,
+url,http://160.119.66.206/bins/net.x86,net_bot,payload,2026-11-16,2026-11-19,sensor_1,
+sha256,39be6853a8204ce6455a373a6ffb4cb4672d4a62d90be69f7d6eeb66cda10b96,net_bot,kla.sh,2026-11-09,2026-11-19,sensor_1,
+sha256,3674a103804cac96027fe1cf62aaab4948c1d547d1c885542177a263103b4260,net_bot,net.x86_64,2026-11-09,2026-11-19,sensor_1,
+sha256,5d9e4bdee8c8fcb0b534f6336ecace4696d8ed3038de42a969c6e037e41d1de5,net_bot,net.x86,2026-11-16,2026-11-19,sensor_1,
+ip,160.119.66.206,net_bot,attacker + payload host,2026-11-09,2026-11-19,sensor_1,AS49870 Alsycon
+url,http://91.186.209.228/re.sh,pxa dropper,loader,2026-11-18,2026-11-18,sensor_1,no public reporting found
+sha256,2ce942487b7c5cabed6f9a383133af635b8b10921c08f0ce518cad47df914af6,pxa dropper,re.sh,2026-11-18,2026-11-18,sensor_1,drops /tmp/.x_<pid>/.pxa
+ip,146.196.81.148,pxa dropper,delivering host,2026-11-18,2026-11-18,sensor_1,
+url,http://178.83.188.141/ssep.sh,ZeroBot loader,loader,2026-11-16,2026-11-18,sensor_1,fetches /fvbig/zerobot.<arch>
+sha256,9b5cfdb8a10c3a1db7f9179afa60af697b7d10cce75acb989de3f7e465f2aa7d,ZeroBot loader,ssep.sh,2026-11-16,2026-11-18,sensor_1,
+url,http://37.221.79.128/mentality.sh,mentality-cloud (Mirai-style),loader,2026-11-18,2026-11-18,sensor_1,payloads under /00101010101001/mentality-cloud.<arch>
+sha256,dfa5c7a015b9c915a98388548fe708e8c816c0b7ee7464febafc463530ce75a1,mentality-cloud (Mirai-style),mentality.sh,2026-11-18,2026-11-18,sensor_1,
+url,http://169.128.70.53:8000/bot_x86_64_c,unknown,payload (download failed),2026-11-19,2026-11-19,sensor_1,new today; 12 sessions
+url,http://phubotnet.duckdns.org/main_mips,phubotnet,payload (download failed),2026-11-10,2026-11-10,sensor_1,also main_<arch> for 10 arches
+sha256,2457003d21409eeba6acb5d18cf067833610d97df4694ce6c66e3407ac901175,main_arm7 (UPX),payload reconstructed from heredoc,2026-11-09,2026-11-09,sensor_1,pushed by 134.209.108.59 via base64 heredoc; Cowrie did not save it
+url,http://176.65.139.157/telnet2.sh,unknown,loader (download failed),2026-11-09,2026-11-19,sensor_1,16 sessions
+url,http://43.157.55.140/d86,unknown,payload (download failed),2026-11-12,2026-11-13,sensor_1,
+url,http://185.93.89.72/wget,unknown,loader (download failed),2026-11-09,2026-11-19,sensor_1,also tftp/ftpget variants
+sha256,a151d3f4f2422531f30a843ffb35479596c86722bb103bdf8591105687f9b125,.16 XMRig-based miner,SCP upload /root/.16,2026-11-09,2026-11-10,sensor_1,122 uploads; stopped after Nov 10
+sha256,55f25016613e20879c92cca64f879c7275c3473a383db567884e355ce0646059,.16 miner (variant),SCP upload /root/.16,2026-11-10,2026-11-10,sensor_2,
+cidr,195.178.110.0/24,.16 miner + honeypot-filter cluster,operator,2026-11-09,2026-11-19,all,
+cidr,2.57.122.0/24,.16 miner + honeypot-filter cluster,operator,2026-11-09,2026-11-19,sensor_1/2,
+cidr,80.94.92.0/24,.16 miner + honeypot-filter cluster,operator,2026-11-09,2026-11-19,all,
+cidr,92.118.39.0/24,.16 miner + honeypot-filter cluster,operator,2026-11-09,2026-11-19,sensor_1/2,
+ip,193.32.162.84,.16 miner + honeypot-filter cluster,operator,2026-11-13,2026-11-17,sensor_1/2,
+sha256,6d1fe6ab3cd04ca5d1ab790339ee2b6577553bc042af3b7587ece0c195267c9b,Raspberry Pi IRC bot (#biret undernet),SCP upload,2026-11-09,2026-11-19,sensor_1,old known family
+sha256,7a9da7d10aa80b0f9e2e3f9e518030c86026a636e0b6de35905e15dd4c8e3e2d,Go SSH brute-forcer 'sshd',SCP upload (truncated 10 MiB),2026-11-10,2026-11-17,sensor_1,8 source IPs
+ip,217.19.215.150,honeypot fingerprinting tool,recon,2026-11-18,2026-11-18,sensor_1,AsyncSSH 2.24.1; greps ps for cowrie/kippo
+ip,191.44.112.76,CVE-2026-24061 telnetd -f root,exploit attempt,2026-11-12,2026-11-19,sensor_1,
+ip,36.255.97.39,CVE-2026-24061 telnetd -f root,exploit attempt,2026-11-11,2026-11-18,sensor_1,
+ip,8.218.25.238,Go credential sweep,recon,2026-11-11,2026-11-11,sensor_1,28.8k sessions; echo -e "\x6F\x6B"
+ip,194.124.37.234,Go credential sweep,recon,2026-11-14,2026-11-15,sensor_1,26.7k sessions
